@@ -1,284 +1,109 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Jorge Restrepo - UX Writer</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jorge Restrepo - CV</title>
   <meta name="description" content="Currículum de Jorge Restrepo, especialista en UX Writing, Content Strategy y Marketing Digital.">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #eaeaea;
-      color: #333;
-      scroll-behavior: smooth;
-    }
-
-    header {
-      background: #1a1a1a;
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    nav {
-      background: #333;
-      padding: 10px 0;
-      text-align: center;
-      position: fixed;
-      width: 100%;
-      top: 0;
-      z-index: 1000;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      padding: 10px 20px;
-      background: #444;
-      border-radius: 5px;
-    }
-
-    nav a:hover {
-      background: #555;
-    }
-
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 20px;
-      margin-top: 80px;
-    }
-
-    /* Adjusted margin-top to account for fixed nav */
-    section {
-      padding: 20px;
-      background: white;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-      margin: 10px;
-      flex: 1 1 calc(50% - 40px);
-      max-width: 900px;
-    }
-
-    h2 {
-      color: #1a1a1a;
-      border-bottom: 2px solid #1a1a1a;
-      padding-bottom: 5px;
-    }
-
-    .contacto a {
-      color: #0073b1;
-      text-decoration: none;
-    }
-
-    .experiencia,
-    .habilidades,
-    .formacion,
-    .idiomas,
-    .perfil {
-      margin-bottom: 20px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    li {
-      background: #f4f4f4;
-      margin: 5px 0;
-      padding: 10px;
-      border-radius: 5px;
-    }
-
-    .profile-img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      margin: 20px auto;
-      display: block;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      padding: 20px;
-      background: #f9f9f9;
-      border-radius: 10px;
-    }
-
-    input,
-    textarea {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    button {
-      background: #1a1a1a;
-      color: white;
-      padding: 10px;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    button:hover {
-      background: #444;
-    }
-
-    footer {
-      background: #1a1a1a;
-      color: white;
-      text-align: center;
-      padding: 10px 0;
-      margin-top: 20px;
-    }
-
-    @media (max-width: 768px) {
-      section {
-        flex: 1 1 100%;
-      }
-    }
-  </style>
 </head>
-
 <body>
-  <header>
-    <img src="https://media.licdn.com/dms/image/v2/C5603AQECs7Za9-e94Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1654534143921?e=1746057600&v=beta&t=rRKURZgA8LdtXT9L3UkQHruPQblbOFMg7w6gZrW_TAU" alt="Foto de perfil de Jorge Restrepo" class="profile-img">
-    <h1>Jorge Restrepo</h1>
-    <p>Especialista en UX Writing, Content Strategy y Marketing Digital</p>
-    <div class="location">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg" alt="Bandera de Colombia" width="24" height="16">
-      <span>Colombia</span>
-    </div>
 
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/jorgemrestrepo/" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
-      </a>
-      <a href="https://www.behance.net/jorgemrestrepo" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/behance.svg" alt="Behance">
-      </a>
-    </div>
-  </header>
+<header>
+  <img src="profile.jpg" alt="Foto de perfil de Jorge Restrepo" class="profile-img">
+  <h1>Jorge Restrepo</h1>
+  <p>Especialista en UX Writing, Content Strategy y Marketing Digital</p>
+</header>
 
-  <nav>
-    <a href="#perfil">Sobre mí</a>
-    <a href="#experiencia">Experiencia</a>
-    <a href="#habilidades">Habilidades</a>
-    <a href="#formacion">Formación</a> <!-- Nuevo enlace agregado -->
-    <a href="#idiomas">Idiomas</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
-
-  <div class="container">
-    <section id="perfil" class="perfil">
-      <h2>Sobre mí</h2>
-      <p>Profesional en Comunicación Social y Magíster en Comunicación Digital con más de 20 años de experiencia en creación de contenidos digitales, UX Writing y marketing digital. He trabajado en entornos corporativos, educativos y de investigación, participando en proyectos de contenido para mejorar la experiencia del usuario y el impacto de marca. Mi enfoque combina la investigación, el diseño de experiencias y la tecnología para generar contenido efectivo y centrado en el usuario.</p>
-    </section>
-    <section id="experiencia" class="experiencia">
-      <h2>Experiencia</h2>
-      <div>
-        <h3>Dentsu Creative (2021 - Presente)</h3>
-        <p><i class="fas fa-lightbulb"></i> Redacción y optimización de contenido para interfaces digitales, garantizando claridad y usabilidad.</p>
-        <p><i class="fas fa-lightbulb"></i> Creación de estrategias de contenido alineadas con la experiencia de usuario.</p>
-        <p><i class="fas fa-lightbulb"></i> Colaboración con equipos de diseño y desarrollo para mejorar la experiencia de usuario en plataformas digitales.</p>
-      </div>
-      <div>
-        <h3>Universidad EAFIT (2018 - 2020)</h3>
-        <p><i class="fas fa-lightbulb"></i> Estrategia y producción de contenido para la Vicerrectoría de Descubrimiento y Creación.</p>
-        <p><i class="fas fa-lightbulb"></i> Docente de la asignatura Imagen Digital en el Departamento de Comunicación Social.</p>
-        <p><i class="fas fa-lightbulb"></i> Redacción de artículos para la revista científica de la universidad.</p>
-
-      </div>
-      <div>
-        <h3>Videobase Agencia (2018)</h3>
-        <p><i class="fas fa-lightbulb"></i> Planeación y ejecución de estrategias de contenido para clientes de diversas industrias.</p>
-        <p><i class="fas fa-lightbulb"></i> Supervisión de proyectos digitales asegurando cumplimiento de KPIs.</p>
-
-      </div>
-      <div>
-        <h3>Experiencia Adicional</h3>
-        <p>UI Designer en Universidad EAFIT (2017)</p>
-        <p>Gestor de Contenidos en SM Digital (2017)</p>
-        <p>Community Manager en Spider Digital Marketing (2016-2017)</p>
-        <p>Comunicador Digital y Docente en Universidad de Antioquia (2011-2015)</p>
-        <p>Diseñador Instruccional y Tutor Virtual en UNAD y proyectos del MinTIC (2011-2013)</p>
-        <p>Cofundador y Coordinador de Contenidos en Corporación Medeweb (2010-2014)</p>
-        <p>Diseñador Instruccional en Politécnico Colombiano Jaime Isaza Cadavid (2010)</p>
-        <p>Diseñador Instruccional en Universidad CEIPA (2006 - 2008)</p>
-      </div>
-    </section>
-    <section id="habilidades" class="habilidades">
-      <h2>Habilidades</h2>
-      <ul>
-        <li>UX Writing & Content Strategy</li>
-        <li>Marketing Digital</li>
-        <li>Adobe Photoshop, Illustrator</li>
-        <li>Figma y herramientas UX</li>
-      </ul>
-    </section>
-    <section id="formacion" class="formacion">
-      <h2>Formación</h2>
-      <ul>
-        <li><strong>Magíster en Comunicación Digital</strong> – Universidad Pontificia Bolivariana (2011-2013)</li>
-        <li><strong>Especialista en Periodismo Electrónico</strong> – Universidad Pontificia Bolivariana (2004-2006)</li>
-        <li><strong>Comunicador Social - Periodista</strong> – Universidad Pontificia Bolivariana (1998-2002)</li>
-      </ul>
-    </section>
-    <section id="idiomas" class="idiomas">
-      <h2>Idiomas</h2>
-      <ul>
-        <li>Español - Nativo</li>
-        <li>Inglés - Competencia profesional (B2)</li>
-      </ul>
-    </section>
-    <section id="contacto" class="contacto">
-      <h2>Contacto</h2>
-      <form>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-
-        <label for="correo">Correo:</label>
-        <input type="email" id="correo" name="correo" required>
-
-        <label for="telefono">Teléfono (opcional):</label>
-        <input type="tel" id="telefono" name="telefono">
-
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
+<nav>
+  <div class="menu-toggle">
+    <i class="fas fa-bars"></i>
   </div>
-  <footer>
-    <p>Todos los derechos reservados. Jorge Restrepo. 2025</p>
-  </footer>
-</body>
+  <ul class="nav-links">
+    <li><a href="#perfil">Sobre mí</a></li>
+    <li><a href="#experiencia">Experiencia</a></li>
+    <li><a href="#habilidades">Habilidades</a></li>
+    <li><a href="#formacion">Formación</a></li>
+    <li><a href="#idiomas">Idiomas</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
 
-</html>
-<!-- partial -->
-  
+<div class="container">
+  <section id="perfil" class="perfil">
+    <h2>Sobre mí</h2>
+    <p>Profesional en Comunicación Social y Magíster en Comunicación Digital con más de 20 años de experiencia en creación de contenidos digitales, UX Writing y marketing digital...</p>
+  </section>
+
+  <section id="experiencia" class="experiencia">
+    <h2>Experiencia</h2>
+    <div>
+      <h3>Dentsu Creative (2021 - Presente)</h3>
+      <p>Redacción y optimización de contenido para interfaces digitales...</p>
+    </div>
+    <div>
+      <h3>Universidad EAFIT (2018 - 2020)</h3>
+      <p>Estrategia y producción de contenido para la Vicerrectoría de Descubrimiento y Creación...</p>
+    </div>
+    <div>
+      <h3>Experiencia Adicional</h3>
+      <p>UI Designer en Universidad EAFIT (2017)</p>
+      <p>Gestor de Contenidos en SM Digital (2017)</p>
+      <p>Community Manager en Spider Digital Marketing (2016-2017)</p>
+    </div>
+  </section>
+
+  <section id="habilidades" class="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>UX Writing & Content Strategy</li>
+      <li>Marketing Digital</li>
+      <li>Adobe Photoshop, Illustrator</li>
+      <li>Figma y herramientas UX</li>
+    </ul>
+  </section>
+
+  <section id="formacion" class="formacion">
+    <h2>Formación</h2>
+    <ul>
+      <li>Magíster en Comunicación Digital – Universidad Pontificia Bolivariana</li>
+      <li>Especialista en Periodismo Electrónico – Universidad Pontificia Bolivariana</li>
+      <li>Comunicador Social - Periodista – Universidad Pontificia Bolivariana</li>
+    </ul>
+  </section>
+
+  <section id="idiomas" class="idiomas">
+    <h2>Idiomas</h2>
+    <ul>
+      <li>Español - Nativo</li>
+      <li>Inglés - Competencia profesional (B2)</li>
+    </ul>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="correo">Correo:</label>
+      <input type="email" id="correo" name="correo" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</div>
+
+<footer>
+  <p>Todos los derechos reservados. Jorge Restrepo. 2025</p>
+</footer>
+
+<script>
+  document.querySelector(".menu-toggle").addEventListener("click", function() {
+    document.querySelector(".nav-links").classList.toggle("active");
+  });
+</script>
+
 </body>
 </html>
